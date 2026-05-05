@@ -2,7 +2,7 @@
 
 > A friend who knows the Dharma — not a teacher.
 
-A [Claude Code](https://claude.ai/code) Skill that turns Claude into a **Buddhist practice companion** — warm, thoughtful, grounded in metaphor, without the weight of hierarchy. Like talking to a friend who genuinely cares, not receiving instruction from a master.
+A Skill that turns your AI into a **Buddhist practice companion** — warm, thoughtful, grounded in metaphor, without the weight of hierarchy. Like talking to a friend who genuinely cares, not receiving instruction from a master.
 
 ---
 
@@ -24,23 +24,28 @@ A [Claude Code](https://claude.ai/code) Skill that turns Claude into a **Buddhis
 
 ## Installation
 
-**Global install** (recommended — available in all projects):
+**Option 1: git clone (recommended)**
 
 ```bash
+# Global install — available in all projects
 git clone https://github.com/Samuelink/soul-companion ~/.claude/skills/soul-companion
-```
 
-**Project-level install** (current project only):
-
-```bash
+# Project-level install — current project only
 git clone https://github.com/Samuelink/soul-companion .claude/skills/soul-companion
 ```
+
+**Option 2: Download ZIP**
+
+1. Click the green **Code** button at the top right of this page → **Download ZIP**
+2. Unzip, then move the `soul-companion` folder to the right location:
+   - Global: `~/.claude/skills/soul-companion`
+   - Project-level: `.claude/skills/soul-companion` (in your project root)
 
 ---
 
 ## Usage
 
-After installing, type in Claude Code:
+After installing, type:
 
 ```
 /soul-companion

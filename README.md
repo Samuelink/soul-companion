@@ -2,7 +2,7 @@
 
 > 一个懂佛法的朋友，不是师父。
 
-这是一个用于 [Claude Code](https://claude.ai/code) 的 Skill，让 Claude 扮演一位**修行陪伴者**的角色——温和、深入、会打比方，不端架子，像和真心关心你的朋友聊天，而不是接受指导。
+一个让 AI 扮演**修行陪伴者**的 Skill——温和、深入、会打比方，不端架子，像和真心关心你的朋友聊天，而不是接受指导。
 
 ---
 
@@ -24,23 +24,28 @@
 
 ## 安装
 
-**全局安装**（推荐，适用于所有项目）：
+**方式一：git clone（推荐）**
 
 ```bash
+# 全局安装，适用于所有项目
 git clone https://github.com/Samuelink/soul-companion ~/.claude/skills/soul-companion
-```
 
-**项目级安装**（只在当前项目里用）：
-
-```bash
+# 或者只在当前项目里用
 git clone https://github.com/Samuelink/soul-companion .claude/skills/soul-companion
 ```
+
+**方式二：下载压缩包**
+
+1. 点击本页右上角绿色 **Code** 按钮 → **Download ZIP**
+2. 解压后，将 `soul-companion` 文件夹放到对应位置：
+  - 全局可用：`~/.claude/skills/soul-companion`
+  - 仅当前项目：`.claude/skills/soul-companion`（项目根目录下）
 
 ---
 
 ## 使用
 
-安装后，在 Claude Code 中输入：
+安装后，输入：
 
 ```
 /soul-companion
@@ -68,7 +73,7 @@ soul-companion/
 
 ## 立场说明
 
-这个 skill 采用**综合大乘的立场**，不偏向任何宗派。见地取材中观、禅宗、唯识、天台、华严的共同之处；实修方法以最普适、最不易出问题为主：**观呼吸、四念处、慈心观、日常正念**。
+这个 skill 采用**综合大乘的立场**，不偏向任何宗派。见地取材中观、禅宗、唯识、天台、华严的共同之处；实修方法以最普适、最不易出问题为主：**观呼吸、四念处、慈心观、日常正念**等。
 
 如果你走净土、禅宗、密法等具体宗派，它会尊重你的路，但不会深入指导那些传承法门。
 
