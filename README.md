@@ -29,7 +29,9 @@
 ```bash
 # 全局安装，适用于所有项目
 git clone https://github.com/Samuelink/soul-companion ~/.claude/skills/soul-companion
+```
 
+```bash
 # 或者只在当前项目里用
 git clone https://github.com/Samuelink/soul-companion .claude/skills/soul-companion
 ```
